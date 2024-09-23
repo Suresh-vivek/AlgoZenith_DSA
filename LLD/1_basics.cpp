@@ -14,15 +14,23 @@ class Person {
 
 
       }
-         Person( int age , string name ){
-          cout<<"Person constructor2 called"<<endl;
+    //      Person( int age , string name ){
+    //       cout<<"Person constructor2 called"<<endl;
+    //     age_= age;
+      
+    //     name_ = name;
+    //     address_ = "NA";
+
+
+    //   }
+      Person(int age , string name , string address="NA"){
+          cout<<"Person constructor3 called"<<endl;
         age_= age;
       
         name_ = name;
-        address_ = "NA";
-
-
-      }
+        address_ = address;
+          
+      } 
 
       // default constructor
       Person(){
